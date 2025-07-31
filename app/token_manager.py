@@ -88,12 +88,13 @@ class TokenCache:
 
 def get_headers(token: str):
     return {
-        'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_Z01QD Build/PI)",
-        'Connection': "Keep-Alive",
-        'Accept-Encoding': "gzip",
         "Authorization": f"Bearer {token}",
-        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 9; ASUS_Z01QD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Mobile Safari/537.36",
         "X-Unity-Version": "2018.4.11f1",
+        "Accept-Encoding": "gzip",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Connection": "Keep-Alive",
+        "ReleaseVersion": "OB50",  # This line has been updated
         "X-GA": "v1 1",
-        "ReleaseVersion": "OB49"
+        "X-Requested-With": "com.dts.freefireth"
     }
