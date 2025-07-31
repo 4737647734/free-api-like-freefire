@@ -88,7 +88,7 @@ async def like_player():
                 "error": "Player not found",
                 "message": "Player not found on any server",
                 "status": 404,
-                "credits": "https://t.me/nopethug"
+                "credits": "https://t.me/quickbro"
             }), 404
 
         before_likes = player_info.AccountInfo.Likes
